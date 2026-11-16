@@ -42,3 +42,7 @@ Build a small API that supports multiple instances behind a load balancer.
 ### Completion criteria
 
 Your application should continue serving requests when one instance becomes unavailable.
+
+### Hands-on guide
+
+[01-practice-guide.md](./01-practice-guide.md) — Docker, nginx LB, Mac vs VPS, interactive experiments.

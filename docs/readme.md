@@ -6,6 +6,8 @@ Stack where appropriate: **TypeScript / Node.js**, **PostgreSQL**, **Redis**, **
 
 **Rule:** Do not outsource the whole lab to an AI. Implement core logic yourself; use review for architecture, missing failure scenarios, and production critique.
 
+**One app, many labs:** [project spine](./project-spine.md) — Next.js + Postgres (+ Redis later). Lab 01 hands-on: [01-practice-guide](./labs/01-practice-guide.md).
+
 ## Curriculum reference
 
 - [30-day study plan](https://study-notes-gold.vercel.app/study-plan/02-30-day-curriculum/)
@@ -66,14 +68,3 @@ Each lab is an **independent** repository when you implement it—not one monoli
 | Testing | Vitest |
 | Monitoring | Structured logs + Prometheus (where useful) |
 
-## Image & article sources (by lab)
-
-References for diagrams and deeper reading. Inline images are hosted URLs—prefer linking to the canonical articles for long-term stability.
-
-| Lab | Topic | Article | Diagram / image |
-|-----|--------|---------|-----------------|
-| 01 | Stateless architecture | [ByteByteGo — Stateless Architecture](https://blog.bytebytego.com/p/stateless-architecture-benefits-and) | [inline diagram](https://images.openai.com/static-rsc-4/_ZbO4Xf9aYqyMtNvNy7jTSapOspyn4NL120dGV1sOeNBhh1lxUIDzjl9XLamxdBvRCqmu4-nN3V3zQyR7TqoiFIAKRIzUdYuLZTKLWlWTsxhctse2CB4gccl91QEKz7MtOVebO6_VW7UOU36s-EsmACrimbmRPZ-E_E1Vf-2qLk?purpose=inline) |
-| 02 | Cache strategies | [Event Looped — Cache Strategies](https://www.eventlooped.com/backend-system-design/cache-strategies) | [inline diagram](https://images.openai.com/static-rsc-4/vGjXlAIt9MZZaXPPaQTZMQsZHbtpos2P9RXlOOqBrZO7FKQ7rYFIEgLNyLWAnR-rPqWkqEZjQ-HC4dZx4qEKZ34vfwZV3V_XKTzUUX9mNZhAC0BuoXrU2l05BQkO5Qeo4BbFsHOchHytIplxUrHAprp-d_H6x1srvNpWIpajJtw?purpose=inline) |
-| 03 | Queues & events | [Prepflix — Message Queues & Pub/Sub](https://prepflix.co.in/blogs/class-7-in-class.html) | [inline diagram](https://images.openai.com/static-rsc-4/82-pwbAJzg0N00yWFypkal6D1Ay9_dL2TSXEPHG_u3yCnzv9FhgneuToXFo_lDM9ryo6l72q9s59WvphkWOiMWs4-pqIMBEYl8elc4hrgCwcAQAZi3UUaMRicCnEoJAjLJoIHsSRlyI4hMOS5yurJ6fliyvnnnzJsSo9VHNJlRw?purpose=inline) |
-| 04 | Query tooling | [Crunchy Data — pgAdmin 4 Query Tool](https://access.crunchydata.com/documentation/pgadmin4/4.20/query_tool.html) | [inline diagram](https://images.openai.com/static-rsc-4/SHZ6ptqlzshjmy9AI0MwEhV3nhlhIbwg-Y6D63LJE7DD14Z2jTnkbO3-yxR8-LVYrLgirlwoDVaLBQSl7hA_RyJncF752DWue4vqKD-KmVqxTJTd7a6GBFcAj4yH-vQk-HL-fN2rujaAy0X9cdFm0VmyLzQEE9sYFP3dzZYhN9w?purpose=inline) |
-| 05 | Rate limiting | [InterviewCrafted — Rate Limiter (Token Bucket)](https://interviewcrafted.com/system-design/rate-limiter) | [inline diagram](https://images.openai.com/static-rsc-4/WsaVNC4eYePjWHS4RDKpoEzHEK3OZV6ABbOCDE_Rybcrm_HyUg28fSMX8aYuaLTZNOnJT96j8U1dgJyBgKzr1-aSf-C6vkgqa7ll41ZRZmBcjrY51JH2y6SgJo9Z--JUPz0-ul0-ifm2iv1WAjFpx-2JzSGjRqrYq6XJd-k6xFE?purpose=inline) |
